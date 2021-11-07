@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+/*content*/
+.header_img {
+    width: 100%;
+}
+.container {
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: 5% auto;
+    
+}
+
+.container1 {
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 5% auto;
+    
+}
+.photo {
+ height: 80%;
+}
+.txt_main {
+    font-size: 100px;
+    text-align: right;
+    font-weight: 700;
+    
+    
+    
+}
+.cont1 {
+   
+   position: relative;
+}
+.line {
+    background-color: #ddc6bd;
+    width: 200px;
+    height: 8px;
+    left: 50%;
+    position: absolute;
+}
+.txt_default {
+    font-size: 33px;
+    font-weight: 200;
+    margin-top: 15%;
+   
+}
+.cont3 {
+    width: 50%;
+    
+}
+.txt_default1 {
+    font-size: 33px;
+    font-weight: 200;
+   
+}
+.cont1_1{
+margin-top: 10%;
+}
+.gallery {
+    width: 35%;
+    padding: 1%;
+}
+.center_txt {
+    font-size: 45px;
+    font-weight: 700;
+    
+    margin-left: 12%;
+    position: absolute;
+    z-index: 2;
+}
+.fill_pink {
+    width: 500px;
+    height: 100px;
+   background-color: #f5e0d7;
+   position: absolute;
+   z-index: 1;
+   margin-left: 7%;
+}
+.head_txt {
+    position: relative;
+    padding-bottom: 5%;
+}
+.header_img {
+    width: 100%;
+  
+    
+}
+.food_img {
+    position: absolute;
+    margin: -15% 50% ;
+    width: 700px;
+   
+    
+}
+.meme {
+    width: 500px;
+}
+.center_txt1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+   
+
+}
+.lil_sh {
+    width: 100%;
+  
+    float: left;  
+    display: block; 
+    overflow: hidden;
+   opacity: 0.6;
+    transition: 1s;
+    
+}
+.pic_lil {
+    overflow: hidden;
+    height: 100%;
+}
+.lil_sh:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
